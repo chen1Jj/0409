@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>作業1</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "微軟正黑體", sans-serif;
+      background: linear-gradient(to right, #f6d365, #fda085); /* 深一點的金黃漸層 */
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border: 1px dashed #aaa;
+      background-color: rgba(255, 193, 7, 0.5); /* 深黃色半透明 */
+      max-width: 800px;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 加一點陰影更有層次 */
+    }
+
+    .image {
+      width: 250px;
+      height: auto;
+    }
+
+    .text {
+      padding: 0 20px;
+      font-size: 20px;
+      text-align: center;
+      line-height: 1.6;
+      color: #000;
+      white-space: pre-line;
+    }
+
+    @media (max-width: 650px) {
+      .content {
+        flex-direction: column;
+      }
+      .text {
+        padding: 20px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <img src="Eberndorf_Köcking_Sonnenblumenfeld_Biohof_Tomic_18072014_0792-removebg-preview.png" alt="左圖" class="image">
+    
+    <div class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+        Quia magni ullam nesciunt ex officia possimus officiis <br>
+        deserunt voluptatem atque dolorem incidunt facilis <br>
+        debitis rerum, delectus recusandae tenetur quas quasi asperiores.
+    </div>
+      
+    <img src="800x-removebg-preview.png" alt="右圖" class="image">
+  </div>
+</body>
+</html>
+
